@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend>biểu mẫu</legend>
+    <form action ="/action_page.php" method="get" target="_self">
+        <label for="lname">Tên của bạn</label>
+        <input type="text" id="lname" name="lname">
+        <label for="fname">Họ của bạn</label>
+        <input type="text" id="fname" name="fname">
+        <label for="cars">Chọn xe</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="merc" selected>Merc</option>
+            <option value="toyota">Toyota</option>
+            <option value="abc">ABC</option>
+        </select><br>
+        <label for="message">Thông tin cá nhân</label>
+        <textarea name="message" id="message" width="300px"; height="300px";>Personal</textarea>
+        <br>
+        <button type="button" onclick="alert('Hello wrorld')">Click</button>
+    </form>
+    </fieldset>
+</body>
+</html>

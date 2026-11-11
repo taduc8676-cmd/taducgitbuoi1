@@ -10,13 +10,13 @@
     <legend>Đăng ký thông tin</legend>
    <form action="" method="" target="_self">
    <label for="name">Tên của bạn</label>
-   <input type="text" name="name" id="name" placeholder="Tên của bạn" size="40" required/> <br> <br>
+   <input type="text" name="name" id="name" placeholder="Tên của bạn" size="40" required value="DUC" disabled/> <br> <br>
    <label for="number">Số điện thoại</label>
-   <input type="number" name="number" id="number" placeholder="Số điện thoại" size="30" > <br><br>
+   <input type="number" name="number" id="number" placeholder="Số điện thoại" maxlength="4" autofocus> <br><br>
    <label for="password">Mật khẩu</label>
-   <input type="password" name="password" id="password" placeholder="Mật khẩu" required> <br><br>
+   <input type="password" name="password" id="password" placeholder="Mật khẩu" maxlength="4"> <br><br>
    <label for="mail">Mail</label>
-   <input type="email" name="mail" id="mail" placeholder="Mail"><br><br>
+   <input type="email" name="mail" id="mail" placeholder="Mail" required><br><br>
    <label for="name">Ngày sinh</label>
    <input type="date" name="date" id="date"><br><br>
    <label for="name">Giới tính</label>
@@ -34,7 +34,7 @@
    </select>
     <br>
     <label for="">Giới thiệu bản thân</label>
-    <textarea rows="3" cols="3"></textarea>
+    <textarea rows="1" cols="5"></textarea>
    <button type="submit">Gửi</button>
    <button type="reset">Làm lại</button>
    
